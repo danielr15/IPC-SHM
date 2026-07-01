@@ -1,0 +1,18 @@
+{
+  "name": "Impasse aleatório",
+  "description": "Locks por célula disputados ao acaso — o impasse pode surgir naturalmente. Se não ocorrer, use o cenário de impasse garantido.",
+  "protection": "cell_mutex",
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 4,
+    "read_probability": 0.0,
+    "duration_min": 3,
+    "duration_max": 6,
+    "think_min": 0,
+    "think_max": 4,
+    "start_delay_max": 10,
+    "hold_lock_after_op": true,
+    "prefer_different_cell_when_holding": true
+  }
+}

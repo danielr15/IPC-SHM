@@ -1,0 +1,16 @@
+{
+  "name": "Corrida de escrita",
+  "description": "Vários processos escrevem ao acaso — corrupção quando colidem no mesmo endereço.",
+  "protection": "none",
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 6,
+    "read_probability": 0.0,
+    "duration_min": 2,
+    "duration_max": 5,
+    "think_min": 2,
+    "think_max": 12,
+    "start_delay_max": 18
+  }
+}

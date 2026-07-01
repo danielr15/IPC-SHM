@@ -1,0 +1,16 @@
+{
+  "name": "Leituras globais em paralelo",
+  "description": "RW-lock global: vários leitores em células diferentes ao mesmo tempo.",
+  "protection": "rwlock_global",
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 6,
+    "read_probability": 1.0,
+    "duration_min": 3,
+    "duration_max": 6,
+    "think_min": 1,
+    "think_max": 8,
+    "start_delay_max": 12
+  }
+}

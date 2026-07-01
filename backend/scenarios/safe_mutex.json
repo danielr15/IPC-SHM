@@ -1,0 +1,16 @@
+{
+  "name": "Escrita com exclusão mútua",
+  "description": "Vários escritores com mutex — fila de espera, memória consistente.",
+  "protection": "mutex",
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 6,
+    "read_probability": 0.0,
+    "duration_min": 2,
+    "duration_max": 4,
+    "think_min": 2,
+    "think_max": 9,
+    "start_delay_max": 14
+  }
+}

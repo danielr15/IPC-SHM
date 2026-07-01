@@ -1,0 +1,25 @@
+{
+  "name": "Impasse garantido",
+  "description": "Dois processos com locks cruzados — impasse previsível.",
+  "protection": "cell_mutex",
+  "grid_size": 4,
+  "loop_script": false,
+  "processes": [
+    {
+      "pid": 1,
+      "script": [
+        { "op": "idle", "duration": 2 },
+        { "op": "write", "address": 2, "value": 1, "duration": 4 },
+        { "op": "write", "address": 3, "value": 2, "duration": 4 }
+      ]
+    },
+    {
+      "pid": 2,
+      "script": [
+        { "op": "idle", "duration": 5 },
+        { "op": "write", "address": 3, "value": 3, "duration": 4 },
+        { "op": "write", "address": 2, "value": 4, "duration": 4 }
+      ]
+    }
+  ]
+}

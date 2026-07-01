@@ -1,0 +1,16 @@
+{
+  "name": "Leitura e escrita mistas",
+  "description": "Processos leem e escrevem sem proteção — inconsistência quando acessos coincidem.",
+  "protection": "none",
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 6,
+    "read_probability": 0.5,
+    "duration_min": 2,
+    "duration_max": 4,
+    "think_min": 1,
+    "think_max": 10,
+    "start_delay_max": 16
+  }
+}

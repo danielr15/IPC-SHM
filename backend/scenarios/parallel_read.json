@@ -1,0 +1,16 @@
+{
+  "name": "Leituras simultâneas",
+  "description": "Vários leitores acessam a memória em paralelo com trava leitura-escrita.",
+  "protection": "rwlock",
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 6,
+    "read_probability": 1.0,
+    "duration_min": 3,
+    "duration_max": 6,
+    "think_min": 1,
+    "think_max": 8,
+    "start_delay_max": 12
+  }
+}

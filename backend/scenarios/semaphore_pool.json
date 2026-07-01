@@ -1,0 +1,17 @@
+{
+  "name": "Vagas limitadas",
+  "description": "Semáforo com duas vagas — no máximo dois processos na região compartilhada.",
+  "protection": "semaphore",
+  "semaphore_k": 2,
+  "grid_size": 4,
+  "loop_script": true,
+  "random": {
+    "process_count": 6,
+    "read_probability": 0.15,
+    "duration_min": 2,
+    "duration_max": 5,
+    "think_min": 1,
+    "think_max": 8,
+    "start_delay_max": 12
+  }
+}
