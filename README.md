@@ -139,12 +139,6 @@ O cenário **Impasse garantido** permanece **scriptado** — o impasse exige ord
 | Impasse aleatório | `cell_mutex` | Impasse pode surgir ao acaso |
 | Impasse garantido | `cell_mutex` | Roteiro fixo (fallback na apresentação) |
 
-### Apresentação: impasse
-
-1. Carregue **Impasse aleatório** e dê **Play** enquanto explica locks por célula.
-2. Se o impasse surgir, a simulação pausa automaticamente.
-3. Se não ocorrer em ~1 min, troque para **Impasse garantido**.
-
 ### Rodar testes automatizados do motor
 
 ```powershell
@@ -166,7 +160,7 @@ python -m tests.run_scenarios
 finalSO/
 ├── backend/          # FastAPI + motor de simulação
 ├── frontend/         # React + TypeScript + Vite
-├── docs/             # Relatório e roteiro de apresentação
+├── docs/             # Relatorio
 └── docker-compose.yml
 ```
 
