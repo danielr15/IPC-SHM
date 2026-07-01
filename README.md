@@ -170,14 +170,6 @@ finalSO/
 └── docker-compose.yml
 ```
 
-## Apresentação sugerida (5–10 min)
-
-1. Explicar SHM e por que proteção é necessária
-2. Cenário `race_write` com `none` → mostrar corrupção
-3. Mudar para `mutex` → repetir → sem corrupção, com espera
-4. `parallel_read` com RW-lock
-5. Comparar métricas e trade-offs (segurança vs desempenho)
-
 ## Referência
 
 Tanenbaum & Bos — *Sistemas Operacionais Modernos* (memória compartilhada, semáforos, mutex, impasses).
