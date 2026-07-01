@@ -137,7 +137,7 @@ O cenário **Impasse garantido** permanece **scriptado** — o impasse exige ord
 | Escritor bloqueia toda a memória | `rwlock_global` | Escritor trava o segmento inteiro |
 | Vagas limitadas | `semaphore` K=2 | Acesso limitado por semáforo |
 | Impasse aleatório | `cell_mutex` | Impasse pode surgir ao acaso |
-| Impasse garantido | `cell_mutex` | Roteiro fixo (fallback na apresentação) |
+| Impasse garantido | `cell_mutex` | Roteiro fixo |
 
 ### Rodar testes automatizados do motor
 
